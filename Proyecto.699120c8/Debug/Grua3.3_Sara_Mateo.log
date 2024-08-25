@@ -1,79 +1,79 @@
 ﻿  main.cpp
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\calculos.h(11,42): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\calculos.h(11,42): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\calculos.h(22,38): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\calculos.h(22,38): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(201,37): warning C4244: '+=': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(201,37): warning C4244:         with
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(201,37): warning C4244:         [
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(201,37): warning C4244:             T=float
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(201,37): warning C4244:         ]
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(192,37): warning C4244: '+=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(192,37): warning C4244:         with
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(192,37): warning C4244:         [
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(192,37): warning C4244:             T=float
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(192,37): warning C4244:         ]
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(233,74): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(224,74): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(239,112): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(230,112): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(247,145): warning C4244: '+=': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(247,145): warning C4244:         with
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(247,145): warning C4244:         [
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(247,145): warning C4244:             T=float
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(247,145): warning C4244:         ]
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(238,145): warning C4244: '+=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(238,145): warning C4244:         with
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(238,145): warning C4244:         [
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(238,145): warning C4244:             T=float
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(238,145): warning C4244:         ]
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(249,30): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(249,30): warning C4244:         with
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(249,30): warning C4244:         [
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(249,30): warning C4244:             T=float
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(249,30): warning C4244:         ]
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(240,30): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(240,30): warning C4244:         with
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(240,30): warning C4244:         [
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(240,30): warning C4244:             T=float
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(240,30): warning C4244:         ]
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(253,66): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(244,66): warning C4244: '-=': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(347,26): warning C4305: '*=': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(338,26): warning C4305: '*=': truncamiento de 'double' a 'float'
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(348,27): warning C4305: '*=': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(339,27): warning C4305: '*=': truncamiento de 'double' a 'float'
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(349,44): warning C4305: '*=': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(340,44): warning C4305: '*=': truncamiento de 'double' a 'float'
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(352,30): warning C4305: '*=': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(343,30): warning C4305: '*=': truncamiento de 'double' a 'float'
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(354,26): warning C4305: '*=': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(345,26): warning C4305: '*=': truncamiento de 'double' a 'float'
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(371,29): warning C4305: '*=': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(362,29): warning C4305: '*=': truncamiento de 'double' a 'float'
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(373,51): warning C4305: '*=': truncamiento de 'double' a 'T'
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(373,51): warning C4305:         with
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(373,51): warning C4305:         [
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(373,51): warning C4305:             T=float
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(373,51): warning C4305:         ]
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(364,51): warning C4305: '*=': truncamiento de 'double' a 'T'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(364,51): warning C4305:         with
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(364,51): warning C4305:         [
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(364,51): warning C4305:             T=float
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(364,51): warning C4305:         ]
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(374,73): warning C4305: '*=': truncamiento de 'double' a 'T'
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(374,73): warning C4305:         with
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(374,73): warning C4305:         [
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(374,73): warning C4305:             T=float
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(374,73): warning C4305:         ]
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(365,73): warning C4305: '*=': truncamiento de 'double' a 'T'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(365,73): warning C4305:         with
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(365,73): warning C4305:         [
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(365,73): warning C4305:             T=float
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(365,73): warning C4305:         ]
   (compilando archivo de origen "main.cpp")
   
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(23,13): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(233,3): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(233,9): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(233,15): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(235,15): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(236,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(670,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\main.cpp(1232,15): warning C4101: 'VBO': variable local sin referencia
-C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\avion.h(197,1): warning C4715: 'loadOBJ': no todas las rutas de acceso de control devuelven un valor
-  Grua3.3_Sara_Mateo.vcxproj -> C:\Users\mateo\OneDrive\Escritorio\Aviator\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\ProyectoFinal_Sara_Mateo\Debug\ProyectoFinal_Sara_Mateo.exe
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(23,13): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(233,3): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(233,9): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(233,15): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(235,15): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(236,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(670,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\main.cpp(1088,15): warning C4101: 'VBO': variable local sin referencia
+C:\Users\mateo\source\repos\mateobodenlle\Aviator\avion.h(188,1): warning C4715: 'loadOBJ': no todas las rutas de acceso de control devuelven un valor
+  Grua3.3_Sara_Mateo.vcxproj -> C:\Users\mateo\Source\Repos\mateobodenlle\Aviator\Debug\ProyectoFinal_Sara_Mateo.exe

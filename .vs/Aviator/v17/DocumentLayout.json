@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\resources\\ITC Avant Garde Gothic LT Condensed Book.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\ITC Avant Garde Gothic LT Condensed Book.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\esfera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:esfera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITC Avant Garde Gothic LT Condensed Book.ttf",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\resources\\ITC Avant Garde Gothic LT Condensed Book.ttf",
+              "RelativeDocumentMoniker": "resources\\ITC Avant Garde Gothic LT Condensed Book.ttf",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\resources\\ITC Avant Garde Gothic LT Condensed Book.ttf",
+              "RelativeToolTip": "resources\\ITC Avant Garde Gothic LT Condensed Book.ttf",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIuSURBVDhPzVPNbtNAEB7/rtuKRIkaOaqdUIVGPQRuiCt33iGKeAHeg1fIAfoAIVKuPEG4REJCQlHUit9KwUCJleA4a3uZWcfGDUjAjc/6vDs7s59nZteK4ziaYRjwL1AURSyXS\u002BF5npALQgil3\u002B8/uYMwEXLxz1DDMIxns9lkNBr1h8PhmBZ113Ub7fbJKWOWJcN\u002BB2U74oSmcRwL27Ydy7Iqqqo\u002BHgwGY63X6z1sNJpNxpipaZqaM3uKc9y19WtY3h6adq1Wczjn51q32\u002B1hn1z06VgqlZsye7b2LlBIwY9bKHSEmanqtc1/SQK1tFqtKii032q17kuhJEnyIKwfwk0EwTqScyL5s5hiLAHLU/DUf2aUbQo3Mcw/r\u002BHt5Qo4jyCKIhx5LrgrhhVKXiuNAr76HCbTFbx45cM6TAWIxbhdyszoRQaJEBd\u002BABfvFjB57cPL6SIPzvwiwY2/9h4zwpcMwOCPXgj\u002BisONAxVWAYfn46u8pCwmETgnol2EykwT/elXr74FkGA/2q4BJ00GMy\u002BG9946FyuWSKAxwQzJlKURFksOwUYA2zOgYVvQuXUA7hGDN184RHGaDSETykTSOgWodCKpI/EOK\u002Bb3wwqDcsmE05v78OBemdfKxiWeSlIUIKbIRrygT8/Ont3udO7izfYwoIRrpTROvkLkBxQ6RtIfQvcmJx07Xo9oOp2eK/ivParX68e6rhtpQ3ORHLQh466NfYvn8/kn6fiPAPAD\u002B2DIRFMIM88AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-25T15:02:35.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "esfera.h",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\esfera.h",
+              "RelativeDocumentMoniker": "esfera.h",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\mateobodenlle\\Aviator\\esfera.h",
+              "RelativeToolTip": "esfera.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-25T15:02:27.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -138,12 +138,10 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\glad y includes\glad y includes\include_lib\ft2build.h" />
     <ClInclude Include="avion.h" />
     <ClInclude Include="esfera.h" />
     <ClInclude Include="calculos.h" />
     <ClInclude Include="lecturaShader_0_9.h" />
-    <ClInclude Include="texto.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="camera.frag" />

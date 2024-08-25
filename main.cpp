@@ -965,96 +965,6 @@ void myIluminacion() {
 	glUniform1f(ambientI, ambientIntensity);
 
 }
-/*
-
-int max(int a, int b) {
-	return a > b ? a : b;
-}
-
-//Carga de fuente
-void load_font(char* filePath, int fontSize)
-{
-	FT_Library fontLibrary;
-	FT_Init_FreeType(&fontLibrary);
-
-	FT_Face fontFace;
-	FT_New_Face(fontLibrary, filePath, 0, &fontFace);
-	FT_Set_Pixel_Sizes(fontFace, 0, fontSize);
-
-	int padding = 2;
-	int row = 0;
-	int col = padding;
-
-	const int textureWidth = 512;
-	char textureBuffer[textureWidth * textureWidth];
-	for (FT_ULong glyphIdx = 32; glyphIdx < 127; ++glyphIdx)
-	{
-		FT_UInt glyphIndex = FT_Get_Char_Index(fontFace, glyphIdx);
-		FT_Load_Glyph(fontFace, glyphIndex, FT_LOAD_DEFAULT);
-		FT_Error error = FT_Render_Glyph(fontFace->glyph, FT_RENDER_MODE_NORMAL);
-
-		if (col + fontFace->glyph->bitmap.width + padding >= 512)
-		{
-			col = padding;
-			row += fontSize;
-		}
-
-		
-
-		// Font Height
-		fontHeight =
-			max((fontFace->size->metrics.ascender - fontFace->size->metrics.descender) >> 6,
-				fontHeight);
-
-		for (unsigned int y = 0; y < fontFace->glyph->bitmap.rows; ++y)
-		{
-			for (unsigned int x = 0; x < fontFace->glyph->bitmap.width; ++x)
-			{
-				textureBuffer[(row + y) * textureWidth + col + x] =
-					fontFace->glyph->bitmap.buffer[y * fontFace->glyph->bitmap.width + x];
-			}
-		}
-
-		Glyph* glyph = &glyphs[glyphIdx];
-		glyph->textureCoords = { col, row };
-		glyph->size =
-		{
-		  (int)fontFace->glyph->bitmap.width,
-		  (int)fontFace->glyph->bitmap.rows
-		};
-		glyph->advance =
-		{
-		  (float)(fontFace->glyph->advance.x >> 6),
-		  (float)(fontFace->glyph->advance.y >> 6)
-		};
-		glyph->offset =
-		{
-		  (float)fontFace->glyph->bitmap_left,
-		  (float)fontFace->glyph->bitmap_top,
-		};
-
-		col += fontFace->glyph->bitmap.width + padding;
-	}
-
-	FT_Done_Face(fontFace);
-	FT_Done_FreeType(fontLibrary);
-
-	// Upload OpenGL Texture
-	{
-		glGenTextures(1, (GLuint*)fontAtlasID);
-		glActiveTexture(GL_TEXTURE1); // Bound to binding = 1, see quad.frag
-		glBindTexture(GL_TEXTURE_2D, fontAtlasID);
-
-		glTexImage2D(GL_TEXTURE_2D, 0, GL_R8, textureWidth, textureWidth, 0,
-			GL_RED, GL_UNSIGNED_BYTE, (char*)textureBuffer);
-
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	}
-}
-*/
 // Función para inicializar openGL
 void openGlInit() {
 
@@ -1068,55 +978,6 @@ void openGlInit() {
 	//load_font(const_cast<char*>(origenFuente), 8);
 
 }
-/*
-
-Transform uiTransforms [1000];
-int uiTransformsCount = 0;
-
-//Interfaz de dibujado de texto
-void draw_ui_text(char* text, glm::ivec2 pos, TextData textData = {})
-{
-	//SM_ASSERT(text, "No Text Supplied!");
-	if (!text)
-	{
-		return;
-	}
-
-	glm::vec2 origin = pos;
-	while (char c = *(text++))
-	{
-		if (c == '\n')
-		{
-			pos.y += fontHeight * textData.fontSize;
-			pos.x = origin.x;
-			continue;
-		}
-
-		Glyph glyph = glyphs[c];
-		Transform transform = {};
-		//transform.materialIdx = get_material_idx(textData.material);
-		transform.pos.x = pos.x + glyph.offset.x * textData.fontSize;
-		transform.pos.y = pos.y - glyph.offset.y * textData.fontSize;
-		transform.atlasOffset = glyph.textureCoords;
-		transform.spriteSize = glyph.size;
-		transform.size = glm::vec2(glyph.size.x, glyph.size.y) * textData.fontSize;
-		transform.renderOptions = textData.renderOptions;
-		//transform.layer = textData.layer;
-
-		
-		uiTransforms[uiTransformsCount] = (transform);
-		uiTransformsCount++;
-		// Advance the Glyph
-		pos.x += glyph.advance.x * textData.fontSize;
-	}
-}
-
-template <typename... Args>
-void cuadroInformacion(char* format, glm::vec2 pos, Args... args) {
-	//Display de texto en pantalla
-	char* text = format;//format_text(format, args...);
-	draw_ui_text(text, pos);
-}*/
 
 // Funcion de lo que se dibuja por pantalla
 void Display() {
@@ -1147,11 +1008,6 @@ void Display() {
 
 	// Llamamos a la función de movimiento de la grúa
 	movimiento();
-	//Cargar información por pantalla
-	//glm::vec2 pos = { 100, 100 };
-
-	//char* formato = const_cast<char*>("Avioncito %d ");
-	//cuadroInformacion(formato, pos, textData);
 
 	// Dibujamos el suelo
 	dibujarSuelo(&transform, transformLoc);
@@ -1251,15 +1107,6 @@ int main()
 	edificio2.VAO = VAOCubo;
 	edificio3.VAO = VAOCubo;
 	edificio4.VAO = VAOCubo;
-
-
-	//avion.VAO = VAOCubo;
-	//avion.size
-	/*base1.VAO = VAOCubo;
-	base2.VAO = VAOCubo;
-	dibujarEsfera();
-	baseA1.VAO = VAOEsfera;
-	baseA2.VAO = VAOEsfera;*/
 
 	//	Cargamos texturas
 	//	Cesped

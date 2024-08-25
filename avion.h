@@ -94,16 +94,7 @@ objeto avion = {
 	glm::vec3{0.0f},
 	100, defaultMaterial}; 
 
-// baseA1 = esfera
-/*objeto baseA1 = {0.0f, 0.5f, 0.0f, 0.0f, 0.0f, 0.0f, 0.35f, 0.35f, 0.35f, 0, 1080};
-// base1 = prisma rectangular = brazo inferior
-objeto base1 = { 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.25f, 1.5f, 0.25f, 0, 36 };
-// baseA2 = esfera 
-objeto baseA2 = { 0.0f, 0.8f, 0.0f, 0.0f, 0.0f, 0.0f, 0.25f, 0.25f, 0.25f, 0, 1080 };
-// base2 = prisma rectangular = brazo superior
-objeto base2 = { 0.0f, 0.8f, 0.0f, 0.0f, 0.0f, 0.0f, 0.15f, 1.5f, 0.15f, 0, 36 };*/
 
-//objeto avion = { 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 1.5f, 0, 36, 0 }; //todo modificar
 
 bool loadOBJ(const char* path, std::vector < glm::vec3 >& out_vertices, std::vector < glm::vec2 >& out_uvs, std::vector < glm::vec3 >& out_normals) {
 	

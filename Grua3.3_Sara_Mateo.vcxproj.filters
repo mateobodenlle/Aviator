@@ -32,12 +32,6 @@
     <ClInclude Include="avion.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\glad y includes\glad y includes\include_lib\ft2build.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="texto.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="calculos.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
